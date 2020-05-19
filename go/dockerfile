@@ -18,4 +18,4 @@ RUN go build -o hello ./src/app
 
 ENTRYPOINT [ "./hello" ]
  
-EXPOSE 8
+EXPOSE 80
